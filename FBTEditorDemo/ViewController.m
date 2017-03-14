@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FBTEditorViewController.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    FBTEditorViewController *editor = [[FBTEditorViewController alloc] initWithNibName:NSStringFromClass([FBTEditorViewController class]) bundle:nil];
+    [self presentViewController:editor animated:YES completion:nil];
+}
 
 @end

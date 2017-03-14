@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FBTEditorKeyboardToolBar">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6a-4I-Bjd">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxz-XC-sCi">
+                            <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="2dB-Bp-sXi"/>
+                                <constraint firstAttribute="height" constant="44" id="QJm-VU-GwR"/>
+                            </constraints>
+                            <state key="normal" title="编辑"/>
+                            <connections>
+                                <action selector="systemKeyboardShow:" destination="iN0-l3-epB" eventType="touchUpInside" id="19t-Gn-FXb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RED-YA-zVy">
+                            <rect key="frame" x="44" y="0.0" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="5hT-zy-Jda"/>
+                                <constraint firstAttribute="height" constant="44" id="Sfb-ma-8nb"/>
+                            </constraints>
+                            <state key="normal" title="文字"/>
+                            <connections>
+                                <action selector="textKeyboardShow:" destination="iN0-l3-epB" eventType="touchUpInside" id="ewZ-jS-pxc"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjG-dN-A9X">
+                            <rect key="frame" x="88" y="0.0" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="8oP-I2-1De"/>
+                                <constraint firstAttribute="width" constant="44" id="zPF-4W-jeN"/>
+                            </constraints>
+                            <state key="normal" title="段落"/>
+                            <connections>
+                                <action selector="paragraphKeyboardShow:" destination="iN0-l3-epB" eventType="touchUpInside" id="kEb-rB-lgC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7XG-Bo-FWh">
+                            <rect key="frame" x="331" y="0.0" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="bL1-1e-dWL"/>
+                                <constraint firstAttribute="width" constant="44" id="sPT-Af-PFk"/>
+                            </constraints>
+                            <state key="normal" title="图片"/>
+                            <connections>
+                                <action selector="imagePickShow:" destination="iN0-l3-epB" eventType="touchUpInside" id="Cbb-fB-yMK"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="bjG-dN-A9X" firstAttribute="centerY" secondItem="h6a-4I-Bjd" secondAttribute="centerY" id="A3L-Lj-QS6"/>
+                        <constraint firstItem="bjG-dN-A9X" firstAttribute="width" secondItem="fxz-XC-sCi" secondAttribute="width" id="Dw3-dy-UNJ"/>
+                        <constraint firstItem="7XG-Bo-FWh" firstAttribute="centerY" secondItem="h6a-4I-Bjd" secondAttribute="centerY" id="Irq-UB-8oR"/>
+                        <constraint firstItem="fxz-XC-sCi" firstAttribute="leading" secondItem="h6a-4I-Bjd" secondAttribute="leading" id="LID-nV-CmH"/>
+                        <constraint firstItem="RED-YA-zVy" firstAttribute="height" secondItem="fxz-XC-sCi" secondAttribute="height" id="NxH-qH-emY"/>
+                        <constraint firstItem="RED-YA-zVy" firstAttribute="centerY" secondItem="h6a-4I-Bjd" secondAttribute="centerY" id="OU6-Mq-SZK"/>
+                        <constraint firstItem="bjG-dN-A9X" firstAttribute="leading" secondItem="RED-YA-zVy" secondAttribute="trailing" id="T7W-2M-Ef7"/>
+                        <constraint firstItem="RED-YA-zVy" firstAttribute="leading" secondItem="fxz-XC-sCi" secondAttribute="trailing" id="Tyx-ab-MB4"/>
+                        <constraint firstItem="bjG-dN-A9X" firstAttribute="height" secondItem="fxz-XC-sCi" secondAttribute="height" id="b7p-Q4-ZYg"/>
+                        <constraint firstItem="RED-YA-zVy" firstAttribute="width" secondItem="fxz-XC-sCi" secondAttribute="width" id="dOQ-UV-C43"/>
+                        <constraint firstAttribute="trailing" secondItem="bjG-dN-A9X" secondAttribute="trailing" constant="243" id="lU3-FH-y6W"/>
+                        <constraint firstAttribute="trailing" secondItem="7XG-Bo-FWh" secondAttribute="trailing" id="lea-VB-6bY"/>
+                        <constraint firstAttribute="bottom" secondItem="bjG-dN-A9X" secondAttribute="bottom" id="qwr-sm-bt6"/>
+                        <constraint firstItem="fxz-XC-sCi" firstAttribute="centerY" secondItem="h6a-4I-Bjd" secondAttribute="centerY" id="xQT-4Z-YqW"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="h6a-4I-Bjd" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="5Xi-PC-cTx"/>
+                <constraint firstItem="h6a-4I-Bjd" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="FRD-EP-i5x"/>
+                <constraint firstItem="h6a-4I-Bjd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GQZ-SW-Dy2"/>
+                <constraint firstItem="h6a-4I-Bjd" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="utb-8F-riC"/>
+                <constraint firstItem="h6a-4I-Bjd" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="vjR-M0-6dW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="-191.5"/>
+        </view>
+    </objects>
+</document>

@@ -15,6 +15,23 @@
 		540A1A301E78402600851E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540A1A2E1E78402600851E9A /* LaunchScreen.storyboard */; };
 		540A1A3B1E78402600851E9A /* FBTEditorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1A3A1E78402600851E9A /* FBTEditorDemoTests.m */; };
 		540A1A461E78402600851E9A /* FBTEditorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1A451E78402600851E9A /* FBTEditorDemoUITests.m */; };
+		540A1A681E78406600851E9A /* FBTEditorConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1A551E78406600851E9A /* FBTEditorConfig.m */; };
+		540A1A691E78406600851E9A /* FBTEditorKeyboardToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1A571E78406600851E9A /* FBTEditorKeyboardToolBar.m */; };
+		540A1A6A1E78406600851E9A /* FBTEditorKeyboardToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 540A1A581E78406600851E9A /* FBTEditorKeyboardToolBar.xib */; };
+		540A1A6B1E78406600851E9A /* FBTEditorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1A5A1E78406600851E9A /* FBTEditorModel.m */; };
+		540A1A6C1E78406600851E9A /* FBTEditorParagraphKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1A5C1E78406600851E9A /* FBTEditorParagraphKeyboard.m */; };
+		540A1A6D1E78406600851E9A /* FBTEditorParagraphKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 540A1A5D1E78406600851E9A /* FBTEditorParagraphKeyboard.xib */; };
+		540A1A6E1E78406600851E9A /* FBTEditorTextKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1A5F1E78406600851E9A /* FBTEditorTextKeyboard.m */; };
+		540A1A6F1E78406600851E9A /* FBTEditorTextKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 540A1A601E78406600851E9A /* FBTEditorTextKeyboard.xib */; };
+		540A1A701E78406600851E9A /* FBTEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1A621E78406600851E9A /* FBTEditorView.m */; };
+		540A1A711E78406600851E9A /* FBTEditorView+FBTEditorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1A641E78406600851E9A /* FBTEditorView+FBTEditorCategory.m */; };
+		540A1A721E78406700851E9A /* FBTEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1A661E78406600851E9A /* FBTEditorViewController.m */; };
+		540A1A731E78406700851E9A /* FBTEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 540A1A671E78406600851E9A /* FBTEditorViewController.xib */; };
+		540A1A781E78407100851E9A /* NSParagraphStyle+FBTEditorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1A751E78407100851E9A /* NSParagraphStyle+FBTEditorCategory.m */; };
+		540A1A791E78407100851E9A /* UIFont+FBTEditorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A1A771E78407100851E9A /* UIFont+FBTEditorCategory.m */; };
+		540A1A7B1E7846C200851E9A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540A1A7A1E7846C200851E9A /* AssetsLibrary.framework */; };
+		540A1A7D1E78470000851E9A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540A1A7C1E78470000851E9A /* Photos.framework */; };
+		E4785538584F723AABE7B4D7 /* Pods_FBTEditorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B75659234056A0139279D1A /* Pods_FBTEditorDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +68,35 @@
 		540A1A411E78402600851E9A /* FBTEditorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBTEditorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540A1A451E78402600851E9A /* FBTEditorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBTEditorDemoUITests.m; sourceTree = "<group>"; };
 		540A1A471E78402600851E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540A1A541E78406600851E9A /* FBTEditorConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTEditorConfig.h; sourceTree = "<group>"; };
+		540A1A551E78406600851E9A /* FBTEditorConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTEditorConfig.m; sourceTree = "<group>"; };
+		540A1A561E78406600851E9A /* FBTEditorKeyboardToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTEditorKeyboardToolBar.h; sourceTree = "<group>"; };
+		540A1A571E78406600851E9A /* FBTEditorKeyboardToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTEditorKeyboardToolBar.m; sourceTree = "<group>"; };
+		540A1A581E78406600851E9A /* FBTEditorKeyboardToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBTEditorKeyboardToolBar.xib; sourceTree = "<group>"; };
+		540A1A591E78406600851E9A /* FBTEditorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTEditorModel.h; sourceTree = "<group>"; };
+		540A1A5A1E78406600851E9A /* FBTEditorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTEditorModel.m; sourceTree = "<group>"; };
+		540A1A5B1E78406600851E9A /* FBTEditorParagraphKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTEditorParagraphKeyboard.h; sourceTree = "<group>"; };
+		540A1A5C1E78406600851E9A /* FBTEditorParagraphKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTEditorParagraphKeyboard.m; sourceTree = "<group>"; };
+		540A1A5D1E78406600851E9A /* FBTEditorParagraphKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBTEditorParagraphKeyboard.xib; sourceTree = "<group>"; };
+		540A1A5E1E78406600851E9A /* FBTEditorTextKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTEditorTextKeyboard.h; sourceTree = "<group>"; };
+		540A1A5F1E78406600851E9A /* FBTEditorTextKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTEditorTextKeyboard.m; sourceTree = "<group>"; };
+		540A1A601E78406600851E9A /* FBTEditorTextKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBTEditorTextKeyboard.xib; sourceTree = "<group>"; };
+		540A1A611E78406600851E9A /* FBTEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTEditorView.h; sourceTree = "<group>"; };
+		540A1A621E78406600851E9A /* FBTEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTEditorView.m; sourceTree = "<group>"; };
+		540A1A631E78406600851E9A /* FBTEditorView+FBTEditorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBTEditorView+FBTEditorCategory.h"; sourceTree = "<group>"; };
+		540A1A641E78406600851E9A /* FBTEditorView+FBTEditorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBTEditorView+FBTEditorCategory.m"; sourceTree = "<group>"; };
+		540A1A651E78406600851E9A /* FBTEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTEditorViewController.h; sourceTree = "<group>"; };
+		540A1A661E78406600851E9A /* FBTEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTEditorViewController.m; sourceTree = "<group>"; };
+		540A1A671E78406600851E9A /* FBTEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBTEditorViewController.xib; sourceTree = "<group>"; };
+		540A1A741E78407100851E9A /* NSParagraphStyle+FBTEditorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSParagraphStyle+FBTEditorCategory.h"; sourceTree = "<group>"; };
+		540A1A751E78407100851E9A /* NSParagraphStyle+FBTEditorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSParagraphStyle+FBTEditorCategory.m"; sourceTree = "<group>"; };
+		540A1A761E78407100851E9A /* UIFont+FBTEditorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FBTEditorCategory.h"; sourceTree = "<group>"; };
+		540A1A771E78407100851E9A /* UIFont+FBTEditorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FBTEditorCategory.m"; sourceTree = "<group>"; };
+		540A1A7A1E7846C200851E9A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		540A1A7C1E78470000851E9A /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		7EB5331F224D3473705A9E48 /* Pods-FBTEditorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBTEditorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBTEditorDemo/Pods-FBTEditorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		905B95C8F277E9F48B8E834F /* Pods-FBTEditorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBTEditorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBTEditorDemo/Pods-FBTEditorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9B75659234056A0139279D1A /* Pods_FBTEditorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBTEditorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				540A1A7B1E7846C200851E9A /* AssetsLibrary.framework in Frameworks */,
+				540A1A7D1E78470000851E9A /* Photos.framework in Frameworks */,
+				E4785538584F723AABE7B4D7 /* Pods_FBTEditorDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +127,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50B1390EB6154EC689308F70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				905B95C8F277E9F48B8E834F /* Pods-FBTEditorDemo.debug.xcconfig */,
+				7EB5331F224D3473705A9E48 /* Pods-FBTEditorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		540A1A141E78402600851E9A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +143,8 @@
 				540A1A391E78402600851E9A /* FBTEditorDemoTests */,
 				540A1A441E78402600851E9A /* FBTEditorDemoUITests */,
 				540A1A1E1E78402600851E9A /* Products */,
+				50B1390EB6154EC689308F70 /* Pods */,
+				D8CE7670802920CEEDE26B5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +161,7 @@
 		540A1A1F1E78402600851E9A /* FBTEditorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				540A1A531E78404D00851E9A /* FBTEditor */,
 				540A1A231E78402600851E9A /* AppDelegate.h */,
 				540A1A241E78402600851E9A /* AppDelegate.m */,
 				540A1A261E78402600851E9A /* ViewController.h */,
@@ -140,6 +201,47 @@
 			path = FBTEditorDemoUITests;
 			sourceTree = "<group>";
 		};
+		540A1A531E78404D00851E9A /* FBTEditor */ = {
+			isa = PBXGroup;
+			children = (
+				540A1A541E78406600851E9A /* FBTEditorConfig.h */,
+				540A1A551E78406600851E9A /* FBTEditorConfig.m */,
+				540A1A561E78406600851E9A /* FBTEditorKeyboardToolBar.h */,
+				540A1A571E78406600851E9A /* FBTEditorKeyboardToolBar.m */,
+				540A1A581E78406600851E9A /* FBTEditorKeyboardToolBar.xib */,
+				540A1A591E78406600851E9A /* FBTEditorModel.h */,
+				540A1A5A1E78406600851E9A /* FBTEditorModel.m */,
+				540A1A5B1E78406600851E9A /* FBTEditorParagraphKeyboard.h */,
+				540A1A5C1E78406600851E9A /* FBTEditorParagraphKeyboard.m */,
+				540A1A5D1E78406600851E9A /* FBTEditorParagraphKeyboard.xib */,
+				540A1A5E1E78406600851E9A /* FBTEditorTextKeyboard.h */,
+				540A1A5F1E78406600851E9A /* FBTEditorTextKeyboard.m */,
+				540A1A601E78406600851E9A /* FBTEditorTextKeyboard.xib */,
+				540A1A611E78406600851E9A /* FBTEditorView.h */,
+				540A1A621E78406600851E9A /* FBTEditorView.m */,
+				540A1A631E78406600851E9A /* FBTEditorView+FBTEditorCategory.h */,
+				540A1A641E78406600851E9A /* FBTEditorView+FBTEditorCategory.m */,
+				540A1A651E78406600851E9A /* FBTEditorViewController.h */,
+				540A1A661E78406600851E9A /* FBTEditorViewController.m */,
+				540A1A671E78406600851E9A /* FBTEditorViewController.xib */,
+				540A1A741E78407100851E9A /* NSParagraphStyle+FBTEditorCategory.h */,
+				540A1A751E78407100851E9A /* NSParagraphStyle+FBTEditorCategory.m */,
+				540A1A761E78407100851E9A /* UIFont+FBTEditorCategory.h */,
+				540A1A771E78407100851E9A /* UIFont+FBTEditorCategory.m */,
+			);
+			path = FBTEditor;
+			sourceTree = "<group>";
+		};
+		D8CE7670802920CEEDE26B5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				540A1A7C1E78470000851E9A /* Photos.framework */,
+				540A1A7A1E7846C200851E9A /* AssetsLibrary.framework */,
+				9B75659234056A0139279D1A /* Pods_FBTEditorDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 540A1A4A1E78402600851E9A /* Build configuration list for PBXNativeTarget "FBTEditorDemo" */;
 			buildPhases = (
+				B2C7BABB7534B57D2007B26D /* [CP] Check Pods Manifest.lock */,
 				540A1A191E78402600851E9A /* Sources */,
 				540A1A1A1E78402600851E9A /* Frameworks */,
 				540A1A1B1E78402600851E9A /* Resources */,
+				6F0C5DC58A3D4F2ACBA28253 /* [CP] Embed Pods Frameworks */,
+				55079DC7F9911039233CAC55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +351,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				540A1A6D1E78406600851E9A /* FBTEditorParagraphKeyboard.xib in Resources */,
+				540A1A6A1E78406600851E9A /* FBTEditorKeyboardToolBar.xib in Resources */,
 				540A1A301E78402600851E9A /* LaunchScreen.storyboard in Resources */,
 				540A1A2D1E78402600851E9A /* Assets.xcassets in Resources */,
 				540A1A2B1E78402600851E9A /* Main.storyboard in Resources */,
+				540A1A731E78406700851E9A /* FBTEditorViewController.xib in Resources */,
+				540A1A6F1E78406600851E9A /* FBTEditorTextKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +377,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55079DC7F9911039233CAC55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBTEditorDemo/Pods-FBTEditorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F0C5DC58A3D4F2ACBA28253 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBTEditorDemo/Pods-FBTEditorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2C7BABB7534B57D2007B26D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		540A1A191E78402600851E9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				540A1A281E78402600851E9A /* ViewController.m in Sources */,
+				540A1A701E78406600851E9A /* FBTEditorView.m in Sources */,
+				540A1A6B1E78406600851E9A /* FBTEditorModel.m in Sources */,
+				540A1A6C1E78406600851E9A /* FBTEditorParagraphKeyboard.m in Sources */,
+				540A1A6E1E78406600851E9A /* FBTEditorTextKeyboard.m in Sources */,
+				540A1A681E78406600851E9A /* FBTEditorConfig.m in Sources */,
+				540A1A721E78406700851E9A /* FBTEditorViewController.m in Sources */,
 				540A1A251E78402600851E9A /* AppDelegate.m in Sources */,
+				540A1A691E78406600851E9A /* FBTEditorKeyboardToolBar.m in Sources */,
+				540A1A791E78407100851E9A /* UIFont+FBTEditorCategory.m in Sources */,
+				540A1A711E78406600851E9A /* FBTEditorView+FBTEditorCategory.m in Sources */,
 				540A1A221E78402600851E9A /* main.m in Sources */,
+				540A1A781E78407100851E9A /* NSParagraphStyle+FBTEditorCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +589,7 @@
 		};
 		540A1A4B1E78402600851E9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905B95C8F277E9F48B8E834F /* Pods-FBTEditorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FBTEditorDemo/Info.plist;
@@ -433,6 +601,7 @@
 		};
 		540A1A4C1E78402600851E9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB5331F224D3473705A9E48 /* Pods-FBTEditorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FBTEditorDemo/Info.plist;
@@ -507,6 +676,7 @@
 				540A1A4C1E78402600851E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		540A1A4D1E78402600851E9A /* Build configuration list for PBXNativeTarget "FBTEditorDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +685,7 @@
 				540A1A4F1E78402600851E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		540A1A501E78402600851E9A /* Build configuration list for PBXNativeTarget "FBTEditorDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +694,7 @@
 				540A1A521E78402600851E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
